@@ -18,14 +18,14 @@ based on the 3D coordinates of the atoms and predicts the binding free energy.
 Run `ACNN-demo.ipynb` notebook  
 Set `idx` variable to select one of the available configurations:
 ```
-PDBBind_core_pocket_random
-PDBBind_core_pocket_scaffold
-PDBBind_core_pocket_stratified
-PDBBind_core_pocket_temporal
-PDBBind_refined_pocket_random
-PDBBind_refined_pocket_scaffold 
-PDBBind_refined_pocket_stratified
-PDBBind_refined_pocket_temporal
+ACNN_PDBBind_core_pocket_random
+ACNN_PDBBind_core_pocket_scaffold
+ACNN_PDBBind_core_pocket_stratified
+ACNN_PDBBind_core_pocket_temporal
+ACNN_PDBBind_refined_pocket_random
+ACNN_PDBBind_refined_pocket_scaffold 
+ACNN_PDBBind_refined_pocket_stratified
+ACNN_PDBBind_refined_pocket_temporal
 ```
 
 ## Performance
