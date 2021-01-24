@@ -15,12 +15,17 @@ based on the 3D coordinates of the atoms and predicts the binding free energy.
 
 ## Usage
 
-Use `main.py` with arguments
+Run `ACNN-demo.ipynb` notebook  
+Set `idx` variable to select one of the available configurations:
 ```
--m {ACNN}, Model to use
--d {PDBBind_core_pocket_random, PDBBind_core_pocket_scaffold, PDBBind_core_pocket_stratified, 
-PDBBind_core_pocket_temporal, PDBBind_refined_pocket_random, PDBBind_refined_pocket_scaffold, 
-PDBBind_refined_pocket_stratified, PDBBind_refined_pocket_temporal}, dataset and splitting method to use
+PDBBind_core_pocket_random
+PDBBind_core_pocket_scaffold
+PDBBind_core_pocket_stratified
+PDBBind_core_pocket_temporal
+PDBBind_refined_pocket_random
+PDBBind_refined_pocket_scaffold 
+PDBBind_refined_pocket_stratified
+PDBBind_refined_pocket_temporal
 ```
 
 ## Performance
